@@ -1,0 +1,49 @@
+<html>
+
+<head>
+<title>lab 3</title>
+<link type="text/css" rel="stylesheet" href="lab.css" />
+<script src="lab.js"></script>
+</head>
+
+<body onload="showGallery()">
+
+<div id="left">
+
+<select id='wid' width='1000px'>
+	<option disabled='disabled'>Choose slides width</option>
+	<option value='0.1'>10%</option>
+	<option value='0.2'>20%</option>
+	<option value='0.3'>30%</option>
+	<option value='0.4'>40%</option>
+	<option value='0.5' selected='selected'>50%</option>
+	<option value='0.6'>60%</option>
+	<option value='0.7'>70%</option>
+	<option value='0.8'>80%</option>
+	<option value='0.9'>90%</option>
+	<option value='1'>100%</option>
+</select>Slides width<br />
+
+<select id='delay'>
+	<option disabled='disabled'>Choose delay time</option>
+	<option value='0.1'>0.1 sec</option>
+	<option value='0.3'>0.3 sec</option>
+	<option value='0.5' selected='selected'>0.5 sec</option>
+	<option value='1'>1 sec</option>
+	<option value='2'>2 sec</option>
+	<option value='3'>3 sec</option>
+	<option value='4'>4 sec</option>
+	<option value='5'>5 sec</option>
+</select>Delay time<br />
+
+<button id="start" onclick="go()">Start slideshow</button>
+
+</div>
+
+<div id="top"></div>
+
+<div id="main"><div>
+
+</body>
+
+</html>
